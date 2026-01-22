@@ -1,1 +1,1 @@
-# Projeto_Gerir_Evento
+# Programa para gerir uma oficina 
