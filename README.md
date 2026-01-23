@@ -1,1 +1,2 @@
-# Programa para gerir uma oficina 
+# Programa para gerir um evento
+
