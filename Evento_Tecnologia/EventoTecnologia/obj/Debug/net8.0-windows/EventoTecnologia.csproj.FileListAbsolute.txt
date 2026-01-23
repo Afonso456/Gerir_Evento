@@ -1,0 +1,100 @@
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.deps.json
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.runtimeconfig.json
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.Form1.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.GenerateResource.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfoInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfo.cs
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\refint\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.deps.json
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.runtimeconfig.json
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmPrincipal.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.GenerateResource.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfoInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfo.cs
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\refint\EventoTecnologia.dll
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2023-2026\2º Ano\MOD 10\PROVA\EventoTecnologia\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmPrincipal.resources
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.GenerateResource.cache
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfoInputs.cache
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfo.cs
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\refint\EventoTecnologia.dll
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.exe
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.deps.json
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.runtimeconfig.json
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
+C:\Users\ESEN\Documents\C#\M_10\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.exe
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.deps.json
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.runtimeconfig.json
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmPrincipal.resources
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.GenerateResource.cache
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfoInputs.cache
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfo.cs
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\refint\EventoTecnologia.dll
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll
+C:\Users\Afonso\Documents\School\C#\Teste\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmAdicionarParticipante.resources
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.exe
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.deps.json
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.runtimeconfig.json
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmAdicionarParticipante.resources
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmPrincipal.resources
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.GenerateResource.cache
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfo.cs
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\refint\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
+C:\Users\PC\Documents\School\PSI\11T-N2-ETAPA3\Teste_Fase_2\Fase 1\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.exe
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.deps.json
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.runtimeconfig.json
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\bin\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmAdicionarParticipante.resources
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmPrincipal.resources
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.GenerateResource.cache
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.AssemblyInfo.cs
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.sourcelink.json
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\refint\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll

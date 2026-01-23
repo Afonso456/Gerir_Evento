@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\Escola Secund\u00E1ria de Em\u00EDdio Navarro de Viseu\\PSI Prof - Documentos\\2023-2026\\2\u00BA Ano\\MOD 10\\PROVA\\EventoTecnologia\\Fase 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\carlo\\escola secund\u00E1ria de em\u00EDdio navarro de viseu\\psi prof - documentos\\2023-2026\\2\u00BA ano\\mod 10\\prova\\eventotecnologia\\fase 1\\eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\carlo\\escola secund\u00E1ria de em\u00EDdio navarro de viseu\\psi prof - documentos\\2023-2026\\2\u00BA ano\\mod 10\\prova\\eventotecnologia\\fase 1\\eventotecnologia\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Participante.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Escola Secund\u00E1ria de Em\u00EDdio Navarro de Viseu\\PSI Prof - Documentos\\2023-2026\\2\u00BA Ano\\MOD 10\\PROVA\\EventoTecnologia\\Fase 1\\EventoTecnologia\\Participante.cs",
+              "RelativeDocumentMoniker": "EventoTecnologia\\Participante.cs",
+              "ToolTip": "C:\\Users\\carlo\\Escola Secund\u00E1ria de Em\u00EDdio Navarro de Viseu\\PSI Prof - Documentos\\2023-2026\\2\u00BA Ano\\MOD 10\\PROVA\\EventoTecnologia\\Fase 1\\EventoTecnologia\\Participante.cs",
+              "RelativeToolTip": "EventoTecnologia\\Participante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:26:51.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Escola Secund\u00E1ria de Em\u00EDdio Navarro de Viseu\\PSI Prof - Documentos\\2023-2026\\2\u00BA Ano\\MOD 10\\PROVA\\EventoTecnologia\\Fase 1\\EventoTecnologia\\Evento.cs",
+              "RelativeDocumentMoniker": "EventoTecnologia\\Evento.cs",
+              "ToolTip": "C:\\Users\\carlo\\Escola Secund\u00E1ria de Em\u00EDdio Navarro de Viseu\\PSI Prof - Documentos\\2023-2026\\2\u00BA Ano\\MOD 10\\PROVA\\EventoTecnologia\\Fase 1\\EventoTecnologia\\Evento.cs",
+              "RelativeToolTip": "EventoTecnologia\\Evento.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:08:03.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
