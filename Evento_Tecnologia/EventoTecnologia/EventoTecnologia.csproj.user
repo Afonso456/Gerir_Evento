@@ -7,6 +7,12 @@
     <Compile Update="frmAdicionarParticipante.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmEditarEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEditarParticipante.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

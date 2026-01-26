@@ -98,3 +98,6 @@ C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\Even
 C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.pdb
 C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.genruntimeconfig.cache
 C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\ref\EventoTecnologia.dll
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.Adicionar_Evento.resources
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmEditarEvento.resources
+C:\Users\PC\Documents\School\PSI\Geir_Evento\Gerir_Evento\Evento_Tecnologia\EventoTecnologia\obj\Debug\net8.0-windows\EventoTecnologia.frmEditarParticipante.resources

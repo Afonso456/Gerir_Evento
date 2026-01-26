@@ -32,13 +32,15 @@ namespace EventoTecnologia
                 dgvDados.Columns[i].Visible = true;
             }
 
+            cb_nomevento.Text = Dados.version;
             cb_nomevento.Text = Dados.evento[0].Nome;
             dtp_data.Value = Dados.evento[0].Data;
             nup_participantes.Value = Dados.evento[0].CapacidadeMax;
 
-            cb_nomevento.Enabled = false;
+            cb_nomevento.Enabled = true;
             dtp_data.Enabled = false;
             nup_participantes.Enabled = false;
+
         }
 
         private void bt_sair_Click(object sender, EventArgs e)
@@ -72,27 +74,35 @@ namespace EventoTecnologia
             }
         }
 
-        private void chk_editar_CheckedChanged(object sender, EventArgs e)
+        private void btn_adicionarevento_Click(object sender, EventArgs e)
         {
-            if (chk_editar.Checked)
+            Adicionar_Evento adicionarevento = new Adicionar_Evento();
+            adicionarevento.ShowDialog();
+        }
+
+        private void btn_removerevento_Click(object sender, EventArgs e)
+        {
+            if (Dados.evento.Count > 1)
             {
-                cb_nomevento.Enabled = true;
-                dtp_data.Enabled = true;
-                nup_participantes.Enabled = true;
+                DialogResult result = MessageBox.Show("Deseja remover o evento selecionado?", Dados.appname, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    Dados.evento.RemoveAt(Dados.evento.Count - 1);
+                    //atualizar os dados do evento na tela
+                    cb_nomevento.Text = Dados.evento[Dados.evento.Count - 1].Nome;
+                    dtp_data.Value = Dados.evento[Dados.evento.Count - 1].Data;
+                    nup_participantes.Value = Dados.evento[Dados.evento.Count - 1].CapacidadeMax;
+                }
+                else
+                    return;
             }
             else
             {
-                cb_nomevento.Enabled = false;
-                dtp_data.Enabled = false;
-                nup_participantes.Enabled = false;
-                //atualizar os dados do evento
-                Dados.evento[0].Nome = cb_nomevento.Text;
-                Dados.evento[0].Data = dtp_data.Value;
-                Dados.evento[0].CapacidadeMax = (int)nup_participantes.Value;
+                MessageBox.Show("Não é possivel remover o ultimo evento.");
             }
         }
 
-        private void btn_adicionarevento_Click(object sender, EventArgs e)
+        private void btn_editarevento_Click(object sender, EventArgs e)
         {
 
         }

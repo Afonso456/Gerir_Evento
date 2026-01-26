@@ -35,6 +35,7 @@
             lb_email = new Label();
             bt_confirmar = new Button();
             nun_idade = new NumericUpDown();
+            btb_cancelar = new Button();
             ((System.ComponentModel.ISupportInitialize)nun_idade).BeginInit();
             SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             tb_email.Location = new Point(82, 58);
             tb_email.Name = "tb_email";
             tb_email.Size = new Size(197, 23);
-            tb_email.TabIndex = 0;
+            tb_email.TabIndex = 1;
             // 
             // lb_nome
             // 
@@ -64,7 +65,7 @@
             // lb_idade
             // 
             lb_idade.AutoSize = true;
-            lb_idade.Location = new Point(22, 112);
+            lb_idade.Location = new Point(299, 19);
             lb_idade.Name = "lb_idade";
             lb_idade.Size = new Size(36, 15);
             lb_idade.TabIndex = 1;
@@ -81,29 +82,40 @@
             // 
             // bt_confirmar
             // 
-            bt_confirmar.Location = new Point(183, 110);
+            bt_confirmar.Location = new Point(82, 96);
             bt_confirmar.Name = "bt_confirmar";
             bt_confirmar.Size = new Size(96, 23);
-            bt_confirmar.TabIndex = 2;
-            bt_confirmar.Text = "Confirmar";
+            bt_confirmar.TabIndex = 3;
+            bt_confirmar.Text = "&Confirmar";
             bt_confirmar.UseVisualStyleBackColor = true;
             bt_confirmar.Click += bt_confirmar_Click;
             // 
             // nun_idade
             // 
-            nun_idade.Location = new Point(82, 110);
+            nun_idade.Location = new Point(359, 17);
             nun_idade.Minimum = new decimal(new int[] { 16, 0, 0, 0 });
             nun_idade.Name = "nun_idade";
             nun_idade.Size = new Size(46, 23);
-            nun_idade.TabIndex = 3;
+            nun_idade.TabIndex = 2;
             nun_idade.Value = new decimal(new int[] { 16, 0, 0, 0 });
+            // 
+            // btb_cancelar
+            // 
+            btb_cancelar.Location = new Point(184, 96);
+            btb_cancelar.Name = "btb_cancelar";
+            btb_cancelar.Size = new Size(96, 23);
+            btb_cancelar.TabIndex = 3;
+            btb_cancelar.Text = "C&ancelar";
+            btb_cancelar.UseVisualStyleBackColor = true;
+            btb_cancelar.Click += btb_cancelar_Click;
             // 
             // frmAdicionarParticipante
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(298, 159);
+            ClientSize = new Size(422, 137);
             Controls.Add(nun_idade);
+            Controls.Add(btb_cancelar);
             Controls.Add(bt_confirmar);
             Controls.Add(lb_email);
             Controls.Add(lb_idade);
@@ -111,7 +123,7 @@
             Controls.Add(tb_email);
             Controls.Add(tb_nome);
             Name = "frmAdicionarParticipante";
-            Text = "frmAdicionarParticipante";
+            Text = "Adicionar Participante";
             ((System.ComponentModel.ISupportInitialize)nun_idade).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -126,5 +138,6 @@
         private Label lb_email;
         private Button bt_confirmar;
         private NumericUpDown nun_idade;
+        private Button btb_cancelar;
     }
 }

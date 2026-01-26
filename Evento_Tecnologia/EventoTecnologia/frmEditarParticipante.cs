@@ -7,26 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Linq;
 
 namespace EventoTecnologia
 {
-    public partial class frmAdicionarParticipante : Form
+    public partial class frmEditarParticipante : Form
     {
-        public frmAdicionarParticipante()
+        public frmEditarParticipante()
         {
             InitializeComponent();
         }
 
-        //Botão que confirma a adição do participante á binding list de participantes e ao datagridview
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
-            string nome = tb_nome.Text.Trim();
-            string email = tb_email.Text.Trim();
+            tb_nome.Text = "txt";
+            tb_email.Text = "txt";
             int idade = (int)nun_idade.Value;
 
             // Validar campos
-            if (string.IsNullOrWhiteSpace(nome))
+            if (string.IsNullOrWhiteSpace("txt"))
             {
                 MessageBox.Show("Nome invalido");
                 return;
@@ -38,14 +36,14 @@ namespace EventoTecnologia
                 return;
             }
 
-            if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))
+            if (string.IsNullOrWhiteSpace("txt") || !"txt".Contains("@"))
             {
                 MessageBox.Show("Email precisa conter '@' para ser valido");
                 return;
             }
 
             // Adicionar a BindingList
-            Dados.participante.Add(new Participante(nome, idade, email));
+            Dados.participante.Add(new Participante("txt", idade, "txt"));
 
             // Limpas os campos depois de adicionar
             tb_nome.Clear();

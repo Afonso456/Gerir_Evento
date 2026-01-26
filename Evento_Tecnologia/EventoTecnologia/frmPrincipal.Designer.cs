@@ -32,7 +32,6 @@
             label2 = new Label();
             label4 = new Label();
             dtp_data = new DateTimePicker();
-            chk_editar = new CheckBox();
             bt_remover = new Button();
             bt_adicionar = new Button();
             bt_sair = new Button();
@@ -43,6 +42,7 @@
             cb_nomevento = new ComboBox();
             btn_adicionarevento = new Button();
             btn_removerevento = new Button();
+            btn_editarevento = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDados).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nup_participantes).BeginInit();
@@ -83,24 +83,13 @@
             dtp_data.Size = new Size(102, 23);
             dtp_data.TabIndex = 2;
             // 
-            // chk_editar
-            // 
-            chk_editar.AutoSize = true;
-            chk_editar.Location = new Point(564, 21);
-            chk_editar.Name = "chk_editar";
-            chk_editar.Size = new Size(95, 19);
-            chk_editar.TabIndex = 3;
-            chk_editar.Text = "Editar Evento";
-            chk_editar.UseVisualStyleBackColor = true;
-            chk_editar.CheckedChanged += chk_editar_CheckedChanged;
-            // 
             // bt_remover
             // 
             bt_remover.Location = new Point(530, 188);
             bt_remover.Name = "bt_remover";
             bt_remover.Size = new Size(78, 38);
             bt_remover.TabIndex = 4;
-            bt_remover.Text = "Remover Inscrição";
+            bt_remover.Text = "&Remover Inscrição";
             bt_remover.UseVisualStyleBackColor = true;
             bt_remover.Click += bt_remover_Click;
             // 
@@ -110,7 +99,7 @@
             bt_adicionar.Name = "bt_adicionar";
             bt_adicionar.Size = new Size(78, 38);
             bt_adicionar.TabIndex = 4;
-            bt_adicionar.Text = "Inscrever Participante";
+            bt_adicionar.Text = "&Inscrever Participante";
             bt_adicionar.UseVisualStyleBackColor = true;
             bt_adicionar.Click += bt_adicionar_Click;
             // 
@@ -143,7 +132,7 @@
             btn_editar.Name = "btn_editar";
             btn_editar.Size = new Size(78, 38);
             btn_editar.TabIndex = 6;
-            btn_editar.Text = "Editar Participante";
+            btn_editar.Text = "&Editar Participante";
             btn_editar.UseVisualStyleBackColor = true;
             // 
             // dgvDados
@@ -176,7 +165,7 @@
             btn_adicionarevento.Name = "btn_adicionarevento";
             btn_adicionarevento.Size = new Size(114, 26);
             btn_adicionarevento.TabIndex = 8;
-            btn_adicionarevento.Text = "Adicionar Evento";
+            btn_adicionarevento.Text = "&Adicionar Evento";
             btn_adicionarevento.UseVisualStyleBackColor = true;
             btn_adicionarevento.Click += btn_adicionarevento_Click;
             // 
@@ -186,21 +175,32 @@
             btn_removerevento.Name = "btn_removerevento";
             btn_removerevento.Size = new Size(118, 26);
             btn_removerevento.TabIndex = 8;
-            btn_removerevento.Text = "Remover Evento";
+            btn_removerevento.Text = "R&emover Evento";
             btn_removerevento.UseVisualStyleBackColor = true;
+            btn_removerevento.Click += btn_removerevento_Click;
+            // 
+            // btn_editarevento
+            // 
+            btn_editarevento.Location = new Point(280, 359);
+            btn_editarevento.Name = "btn_editarevento";
+            btn_editarevento.Size = new Size(118, 26);
+            btn_editarevento.TabIndex = 8;
+            btn_editarevento.Text = "&Editar Evento";
+            btn_editarevento.UseVisualStyleBackColor = true;
+            btn_editarevento.Click += btn_editarevento_Click;
             // 
             // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(682, 397);
+            Controls.Add(btn_editarevento);
             Controls.Add(btn_removerevento);
             Controls.Add(btn_adicionarevento);
             Controls.Add(cb_nomevento);
             Controls.Add(nup_participantes);
             Controls.Add(groupBox1);
             Controls.Add(bt_sair);
-            Controls.Add(chk_editar);
             Controls.Add(dtp_data);
             Controls.Add(label4);
             Controls.Add(label2);
@@ -221,7 +221,6 @@
         private Label label2;
         private Label label4;
         private DateTimePicker dtp_data;
-        private CheckBox chk_editar;
         private Button bt_remover;
         private Button bt_adicionar;
         private Button bt_sair;
@@ -232,5 +231,6 @@
         private ComboBox cb_nomevento;
         private Button btn_adicionarevento;
         private Button btn_removerevento;
+        private Button btn_editarevento;
     }
 }
