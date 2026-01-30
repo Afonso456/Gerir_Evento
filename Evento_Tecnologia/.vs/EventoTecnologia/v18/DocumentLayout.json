@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -90,8 +90,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmEditarParticipante.cs [Design]",
               "RelativeToolTip": "EventoTecnologia\\frmEditarParticipante.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T16:00:49.872Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-26T16:00:49.872Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmEditarEvento.cs [Design]",
               "RelativeToolTip": "EventoTecnologia\\frmEditarEvento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T15:58:28.306Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-26T15:58:28.306Z"
             },
             {
               "$type": "Document",
@@ -127,8 +125,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Adicionar_Evento.cs [Design]",
               "RelativeToolTip": "EventoTecnologia\\Adicionar_Evento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T09:42:27.605Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-23T09:42:27.605Z"
             },
             {
               "$type": "Document",
@@ -152,8 +149,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmAdicionarParticipante.cs [Design]",
               "RelativeToolTip": "EventoTecnologia\\frmAdicionarParticipante.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T08:59:34.354Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-23T08:59:34.354Z"
             },
             {
               "$type": "Document",
@@ -177,8 +173,7 @@
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmPrincipal.cs [Design]",
               "RelativeToolTip": "EventoTecnologia\\frmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:43:01.506Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-21T08:43:01.506Z"
             },
             {
               "$type": "Document",
@@ -190,8 +185,7 @@
               "RelativeToolTip": "EventoTecnologia\\Participante.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T09:06:51.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T09:06:51.692Z"
             },
             {
               "$type": "Document",
@@ -203,8 +197,7 @@
               "RelativeToolTip": "EventoTecnologia\\Evento.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:41:47.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T08:41:47.421Z"
             },
             {
               "$type": "Document",
@@ -216,8 +209,7 @@
               "RelativeToolTip": "EventoTecnologia\\Dados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T16:21:55.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T16:21:55.082Z"
             }
           ]
         }
