@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventoTecnologia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94682ae93aeb069ca926fbf8d391ec19877970b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c8649311fbc2c04a38e93a7ad8a651ac737b86d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventoTecnologia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventoTecnologia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
