@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace EventoTecnologia
@@ -22,7 +23,28 @@ namespace EventoTecnologia
             participante.Add(new Participante("Antonio Costa", 50, "costaantonio@gmail.com"));
 
             //evento de exemplo
-            evento.Add(new Evento("Festa de Tecnologia", new DateTime(2024, 11, 15), 100));
+            evento.Add(new Evento("Festa de Tecnologia", new DateTime(2024, 11, 15), 10));
+            evento.Add(new Evento("Evento", new DateTime(2027, 2, 23), 5));
+        }
+
+        //função para guardar os dados em ficheiros JSON
+        public static void GuardarDados()
+        {
+            string jsonStringe = JsonSerializer.Serialize(evento);
+            string jsonStringp = JsonSerializer.Serialize(participante);
+
+            string fileNamep = "participantes.json";
+            File.WriteAllText(fileNamep, jsonStringp);
+
+            string fileName = "eventos.json";
+            File.WriteAllText(fileName, jsonStringe);
+
+        }
+
+        //função para carregar os dados de um ficheiro JSON para a datagridview
+        public static void CarregarDados()
+        {
+            
         }
     }
 }

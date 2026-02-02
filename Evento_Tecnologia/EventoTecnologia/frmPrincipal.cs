@@ -18,6 +18,7 @@ namespace EventoTecnologia
 
             //não permiter que o utilizador redimensione as colunas
             dgvDados.AllowUserToResizeColumns = false;
+            dgvDados.AllowUserToResizeRows = false;
 
             //não permiter que o utilizador adicione ou remove colunas
             dgvDados.AllowUserToAddRows = false;
@@ -32,7 +33,10 @@ namespace EventoTecnologia
                 dgvDados.Columns[i].Visible = true;
             }
 
-            cb_nomevento.Text = Dados.version;
+            foreach (var evento in Dados.evento)
+            {
+                cb_nomevento.Items.Add(evento.Nome);
+            }
             cb_nomevento.Text = Dados.evento[0].Nome;
             dtp_data.Value = Dados.evento[0].Data;
             nup_participantes.Value = Dados.evento[0].CapacidadeMax;
@@ -112,6 +116,15 @@ namespace EventoTecnologia
             dtp_data.Value = Dados.evento[0].Data;
             nup_participantes.Value = Dados.evento[0].CapacidadeMax;
 
+        }
+
+        private void btn_editar_Click(object sender, EventArgs e)
+        {
+            frmEditarParticipante editarparticipante = new frmEditarParticipante();
+            editarparticipante.ShowDialog();
+
+            //atualizar os dados do participante de acordo com as edições feitas
+            dgvDados.Refresh();
         }
     }
 }

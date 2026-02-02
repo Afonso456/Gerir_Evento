@@ -134,6 +134,7 @@
             btn_editar.TabIndex = 6;
             btn_editar.Text = "&Editar Participante";
             btn_editar.UseVisualStyleBackColor = true;
+            btn_editar.Click += btn_editar_Click;
             // 
             // dgvDados
             // 

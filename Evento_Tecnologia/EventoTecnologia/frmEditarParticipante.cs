@@ -19,12 +19,9 @@ namespace EventoTecnologia
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
-            tb_nome.Text = Dados.participante[0].Nome;
-            tb_email.Text = Dados.participante[0].Email;
-            string email= tb_email.Text;
-            nun_idade.Value = Dados.participante[0].Idade;
+            string email = tb_email.Text;
             int idade = Convert.ToInt32(nun_idade.Value);
-
+            //TODO: Trocar os if's pelo errorprovider
             // Validar campos
             if (string.IsNullOrWhiteSpace("txt"))
             {
@@ -44,12 +41,14 @@ namespace EventoTecnologia
                 return;
             }
 
-            // Adicionar a BindingList
-            Dados.participante.Add(new Participante("txt", idade, "txt"));
+            // Editar o participante na BindingList
+            Dados.participante[0].Nome = tb_nome.Text;
+            Dados.participante[0].Idade = idade;
+            Dados.participante[0].Email = email;
 
             // Limpas os campos depois de adicionar
             tb_nome.Clear();
-            nun_idade.Value = 0;
+            nun_idade.Value = 16;
             tb_email.Clear();
 
             MessageBox.Show("Participante Adicionado");
@@ -59,8 +58,14 @@ namespace EventoTecnologia
 
         private void btb_cancelar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ação Cancelada");
             frmAdicionarParticipante.ActiveForm.Close();
+        }
+
+        private void frmEditarParticipante_Load(object sender, EventArgs e)
+        {
+            tb_nome.Text = Dados.participante[0].Nome;
+            tb_email.Text = Dados.participante[0].Email;
+            nun_idade.Value = Dados.participante[0].Idade;
         }
     }
 }

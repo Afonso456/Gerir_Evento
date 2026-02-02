@@ -38,8 +38,10 @@
             btn_cancelar = new Button();
             dtp_data = new DateTimePicker();
             errorProvider1 = new ErrorProvider(components);
+            errorProvider2 = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)nun_participantes).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider2).BeginInit();
             SuspendLayout();
             // 
             // nun_participantes
@@ -115,6 +117,10 @@
             // 
             errorProvider1.ContainerControl = this;
             // 
+            // errorProvider2
+            // 
+            errorProvider2.ContainerControl = this;
+            // 
             // Adicionar_Evento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -132,6 +138,7 @@
             Text = "Adicionar Evento";
             ((System.ComponentModel.ISupportInitialize)nun_participantes).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -147,5 +154,6 @@
         private Button btn_cancelar;
         private DateTimePicker dtp_data;
         private ErrorProvider errorProvider1;
+        private ErrorProvider errorProvider2;
     }
 }

@@ -20,6 +20,7 @@ namespace EventoTecnologia
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
+            //TODO: adicionar validações necessárias usando o errorprovider
             string nome = tb_nome.Text.Trim();
             DateTime data = dtp_data.Value;
             int capacidade = (int)nun_participantes.Value;

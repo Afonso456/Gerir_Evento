@@ -24,7 +24,7 @@ namespace EventoTecnologia
             string nome = tb_nome.Text.Trim();
             string email = tb_email.Text.Trim();
             int idade = (int)nun_idade.Value;
-
+            //TODO: Trocar os if's pelo errorprovider
             // Validar campos
             if (string.IsNullOrWhiteSpace(nome))
             {
@@ -46,11 +46,6 @@ namespace EventoTecnologia
 
             // Adicionar a BindingList
             Dados.participante.Add(new Participante(nome, idade, email));
-
-            // Limpas os campos depois de adicionar
-            tb_nome.Clear();
-            nun_idade.Value = 0;
-            tb_email.Clear();
 
             MessageBox.Show("Participante Adicionado");
 

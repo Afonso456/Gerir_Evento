@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             dtp_data = new DateTimePicker();
             btn_cancelar = new Button();
             nun_participantes = new NumericUpDown();
@@ -36,7 +37,9 @@
             lb_participantes = new Label();
             lb_nome = new Label();
             tb_nome = new TextBox();
+            errorProvider1 = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)nun_participantes).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // dtp_data
@@ -55,6 +58,7 @@
             btn_cancelar.TabIndex = 17;
             btn_cancelar.Text = "C&ancelar";
             btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.Click += btn_cancelar_Click;
             // 
             // nun_participantes
             // 
@@ -107,6 +111,10 @@
             tb_nome.Size = new Size(197, 23);
             tb_nome.TabIndex = 11;
             // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
             // frmEditarEvento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -124,6 +132,7 @@
             Text = "Editar Evento";
             Load += frmEditarEvento_Load;
             ((System.ComponentModel.ISupportInitialize)nun_participantes).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -138,5 +147,6 @@
         private Label lb_participantes;
         private Label lb_nome;
         private TextBox tb_nome;
+        private ErrorProvider errorProvider1;
     }
 }

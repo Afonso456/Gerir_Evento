@@ -21,6 +21,12 @@ namespace EventoTecnologia
         {
             string nome = tb_nome.Text;
             int capacidade = (int)nun_participantes.Value;
+            //TODO: Trocar os if's pelo errorprovider
+            if (capacidade < Dados.participante.Count)
+            {
+                MessageBox.Show("Numero de participantes nao pode ser menor que o numero ja registado");
+                return;
+            }
 
             // Validar campos
             if (string.IsNullOrWhiteSpace("txt"))
@@ -35,7 +41,7 @@ namespace EventoTecnologia
                 return;
             }
 
-            // Adicionar o evento na BindingList
+            //Atualizar o evento na BindingList
             Dados.evento[0].Nome = nome;
             Dados.evento[0].Data = dtp_data.Value;
             Dados.evento[0].CapacidadeMax = capacidade;
@@ -52,6 +58,11 @@ namespace EventoTecnologia
             dtp_data.Value = Dados.evento[0].Data;
             dtp_data.MinDate = DateTime.Now;
             nun_participantes.Value = Dados.evento[0].CapacidadeMax;
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            frmAdicionarParticipante.ActiveForm.Close();
         }
     }
 }

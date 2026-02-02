@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             nun_idade = new NumericUpDown();
             btb_cancelar = new Button();
             bt_confirmar = new Button();
@@ -36,7 +37,9 @@
             lb_nome = new Label();
             tb_email = new TextBox();
             tb_nome = new TextBox();
+            errorProvider1 = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)nun_idade).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // nun_idade
@@ -56,6 +59,7 @@
             btb_cancelar.TabIndex = 10;
             btb_cancelar.Text = "C&ancelar";
             btb_cancelar.UseVisualStyleBackColor = true;
+            btb_cancelar.Click += btb_cancelar_Click;
             // 
             // bt_confirmar
             // 
@@ -108,6 +112,10 @@
             tb_nome.Size = new Size(197, 23);
             tb_nome.TabIndex = 4;
             // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
             // frmEditarParticipante
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -123,7 +131,9 @@
             Controls.Add(tb_nome);
             Name = "frmEditarParticipante";
             Text = "frmEditarParticipante";
+            Load += frmEditarParticipante_Load;
             ((System.ComponentModel.ISupportInitialize)nun_idade).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -138,5 +148,6 @@
         private Label lb_nome;
         private TextBox tb_email;
         private TextBox tb_nome;
+        private ErrorProvider errorProvider1;
     }
 }
