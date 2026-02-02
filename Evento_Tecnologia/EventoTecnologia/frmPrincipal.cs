@@ -104,6 +104,13 @@ namespace EventoTecnologia
 
         private void btn_editarevento_Click(object sender, EventArgs e)
         {
+            frmEditarEvento editarevento = new frmEditarEvento();
+            editarevento.ShowDialog();
+
+            //atualizar os dados do evento de acordo com as edições feitas
+            cb_nomevento.Text = Dados.evento[0].Nome;
+            dtp_data.Value = Dados.evento[0].Data;
+            nup_participantes.Value = Dados.evento[0].CapacidadeMax;
 
         }
     }

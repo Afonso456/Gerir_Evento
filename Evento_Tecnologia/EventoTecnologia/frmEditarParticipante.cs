@@ -19,9 +19,11 @@ namespace EventoTecnologia
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
-            tb_nome.Text = "txt";
-            tb_email.Text = "txt";
-            int idade = (int)nun_idade.Value;
+            tb_nome.Text = Dados.participante[0].Nome;
+            tb_email.Text = Dados.participante[0].Email;
+            string email= tb_email.Text;
+            nun_idade.Value = Dados.participante[0].Idade;
+            int idade = Convert.ToInt32(nun_idade.Value);
 
             // Validar campos
             if (string.IsNullOrWhiteSpace("txt"))
@@ -30,13 +32,13 @@ namespace EventoTecnologia
                 return;
             }
 
-            if (idade < 0)
+            if (idade < 0 || idade < 16)
             {
-                MessageBox.Show("Idade tem que ser um numero positivo maior que zero");
+                MessageBox.Show("Idade tem que ser um numero positivo maior que zero e maior de 16");
                 return;
             }
 
-            if (string.IsNullOrWhiteSpace("txt") || !"txt".Contains("@"))
+            if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))
             {
                 MessageBox.Show("Email precisa conter '@' para ser valido");
                 return;

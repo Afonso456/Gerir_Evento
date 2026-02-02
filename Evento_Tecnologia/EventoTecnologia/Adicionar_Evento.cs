@@ -34,6 +34,7 @@ namespace EventoTecnologia
             
 
             MessageBox.Show("Evento Adicionado");
+            Adicionar_Evento.ActiveForm.Close();
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)

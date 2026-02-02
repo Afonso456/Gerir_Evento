@@ -71,6 +71,7 @@
             bt_confirmar.TabIndex = 13;
             bt_confirmar.Text = "&Confirmar";
             bt_confirmar.UseVisualStyleBackColor = true;
+            bt_confirmar.Click += bt_confirmar_Click;
             // 
             // lb_detalhes
             // 
@@ -121,6 +122,7 @@
             Controls.Add(tb_nome);
             Name = "frmEditarEvento";
             Text = "Editar Evento";
+            Load += frmEditarEvento_Load;
             ((System.ComponentModel.ISupportInitialize)nun_participantes).EndInit();
             ResumeLayout(false);
             PerformLayout();
