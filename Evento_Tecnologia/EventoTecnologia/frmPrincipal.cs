@@ -1,3 +1,5 @@
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 
 namespace EventoTecnologia
@@ -8,17 +10,30 @@ namespace EventoTecnologia
         {
             InitializeComponent();
         }
+        BindingList<Evento> eventos;
+        BindingList<Participante> participantes;
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
+            eventos = Dados.LerEventos();
+            participantes = Dados.LerParticipantes();
+
+            cb_nomevento.DataSource = Dados.evento[0];
+            dgvDados.DataSource = Dados.participante;
+
             //desativar a seleção multipla de linhas
             dgvDados.MultiSelect = false;
 
-            //selecioar a linha toda
+            //selecionar a linha toda
             dgvDados.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
             //não permiter que o utilizador redimensione as colunas
             dgvDados.AllowUserToResizeColumns = false;
             dgvDados.AllowUserToResizeRows = false;
+
+            //adaptar o tamanho das colunas ao conteudo e ao tamanho da dataGridView
+            dgvDados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            //alterar o tamanho da coluna da idade para o tamanho do conteudo
+            dgvDados.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
 
             //não permiter que o utilizador adicione ou remove colunas
             dgvDados.AllowUserToAddRows = false;
@@ -27,19 +42,17 @@ namespace EventoTecnologia
 
             dgvDados.RowHeadersVisible = false;
             dgvDados.ReadOnly = true;
-            dgvDados.DataSource = Dados.participante;
             for (int i = 3; i < dgvDados.Columns.Count; i++)
             {
                 dgvDados.Columns[i].Visible = true;
             }
 
-            foreach (var evento in Dados.evento)
+            cb_nomevento.DataSource = eventos;
+            if (eventos.Count > 0)
             {
-                cb_nomevento.Items.Add(evento.Nome);
+                dtp_data.Value = eventos[0].Data;
+                nup_participantes.Value = eventos[0].CapacidadeMax;
             }
-            cb_nomevento.Text = Dados.evento[0].Nome;
-            dtp_data.Value = Dados.evento[0].Data;
-            nup_participantes.Value = Dados.evento[0].CapacidadeMax;
 
             cb_nomevento.Enabled = true;
             dtp_data.Enabled = false;
@@ -49,6 +62,8 @@ namespace EventoTecnologia
 
         private void bt_sair_Click(object sender, EventArgs e)
         {
+            Dados.GuardarEventos(eventos);
+            Dados.GuardarParticipantes(participantes);
             Application.Exit();
         }
 
@@ -67,7 +82,8 @@ namespace EventoTecnologia
                 if (result == DialogResult.Yes)
                 {
                     int index = dgvDados.SelectedRows[0].Index;
-                    Dados.participante.RemoveAt(index);
+                    participantes.RemoveAt(index);
+
                 }
                 else
                     return;
@@ -91,11 +107,14 @@ namespace EventoTecnologia
                 DialogResult result = MessageBox.Show("Deseja remover o evento selecionado?", Dados.appname, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result == DialogResult.Yes)
                 {
-                    Dados.evento.RemoveAt(Dados.evento.Count - 1);
+                    eventos.RemoveAt(eventos.Count - 1);
                     //atualizar os dados do evento na tela
                     cb_nomevento.Text = Dados.evento[Dados.evento.Count - 1].Nome;
-                    dtp_data.Value = Dados.evento[Dados.evento.Count - 1].Data;
-                    nup_participantes.Value = Dados.evento[Dados.evento.Count - 1].CapacidadeMax;
+                    if (eventos.Count > 0)
+                    {
+                        dtp_data.Value = eventos[0].Data;
+                        nup_participantes.Value = eventos[0].CapacidadeMax;
+                    }
                 }
                 else
                     return;
@@ -112,9 +131,12 @@ namespace EventoTecnologia
             editarevento.ShowDialog();
 
             //atualizar os dados do evento de acordo com as edições feitas
-            cb_nomevento.Text = Dados.evento[0].Nome;
-            dtp_data.Value = Dados.evento[0].Data;
-            nup_participantes.Value = Dados.evento[0].CapacidadeMax;
+            cb_nomevento.Text = eventos[0].Nome;
+            if (eventos.Count > 0)
+            {
+                dtp_data.Value = eventos[0].Data;
+                nup_participantes.Value = eventos[0].CapacidadeMax;
+            }
 
         }
 

@@ -9,14 +9,14 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace EventoTecnologia
 {
-    internal class Evento
+    public class Evento
     {
-        public static List<Participante> listaParticipantes = new List<Participante>();
-        public static List<Evento> listaEventos = new List<Evento>();
-
-        public const int CAPACIDADE_MIN = 15;
+        public List<Evento> listaEventos  = new List<Evento>();
+        public List<Participante> listaParticipantes = new List<Participante>();
+        public const int CAPACIDADE_MAX = 15;
         public string Nome { get; set; }
         public DateTime Data { get; set; }
+
 
         int capacidadeMax;
         public int CapacidadeMax
@@ -27,7 +27,7 @@ namespace EventoTecnologia
                 if (IsValidCapacidadeMaxl(value))
                     capacidadeMax = value;
                 else
-                    capacidadeMax = CAPACIDADE_MIN;
+                    capacidadeMax = CAPACIDADE_MAX;
             }
         }
 
@@ -54,16 +54,15 @@ namespace EventoTecnologia
         {
             bool podeinscrever = true;
 
-            if (listaParticipantes.Count >= Evento.CAPACIDADE_MIN)
+            //verificar se o evento já atingiu a capacidade máxima
+            if (Dados.evento.Count >= CAPACIDADE_MAX)
+            {
                 podeinscrever = false;
-            else
-                podeinscrever = true;
+            }
             return podeinscrever;
         }
 
-        static Evento()
-        {
-
-        }
+        public Evento()
+        { }
     }
 }

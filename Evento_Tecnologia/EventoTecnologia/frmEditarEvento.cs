@@ -24,20 +24,20 @@ namespace EventoTecnologia
             //TODO: Trocar os if's pelo errorprovider
             if (capacidade < Dados.participante.Count)
             {
-                MessageBox.Show("Numero de participantes nao pode ser menor que o numero ja registado");
+                errorProvider1.SetError(nun_participantes, "Capacidade menor que o numero de participantes ja inscritos");
                 return;
             }
 
             // Validar campos
             if (string.IsNullOrWhiteSpace("txt"))
             {
-                MessageBox.Show("Evento invalido");
+                errorProvider1.SetError(tb_nome, "Nome do evento e obrigatorio");
                 return;
             }
 
             if (capacidade < 0)
             {
-                MessageBox.Show("Numero de participantes tem que ser maior que zero");
+                errorProvider1.SetError(nun_participantes, "Capacidade invalida");
                 return;
             }
 
@@ -48,7 +48,7 @@ namespace EventoTecnologia
 
             MessageBox.Show("Evento Editado");
 
-            frmAdicionarParticipante.ActiveForm.Close();
+            Close();
         }
 
         private void frmEditarEvento_Load(object sender, EventArgs e)
@@ -62,7 +62,7 @@ namespace EventoTecnologia
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
-            frmAdicionarParticipante.ActiveForm.Close();
+            Close();
         }
     }
 }

@@ -28,19 +28,13 @@ namespace EventoTecnologia
             // Validar campos
             if (string.IsNullOrWhiteSpace(nome))
             {
-                MessageBox.Show("Nome invalido");
-                return;
-            }
-
-            if (idade < 0)
-            {
-                MessageBox.Show("Idade tem que ser um numero positivo maior que zero");
+                errorProvider1.SetError(tb_nome, "Nome do participante é obrigatorio");
                 return;
             }
 
             if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))
             {
-                MessageBox.Show("Email precisa conter '@' para ser valido");
+                errorProvider1.SetError(tb_email, "Email inválido");
                 return;
             }
 
@@ -49,13 +43,13 @@ namespace EventoTecnologia
 
             MessageBox.Show("Participante Adicionado");
 
-            frmAdicionarParticipante.ActiveForm.Close();
+            Close();
         }
 
         private void btb_cancelar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ação Cancelada");
-            frmAdicionarParticipante.ActiveForm.Close();
+            Close();
         }
     }
 }
