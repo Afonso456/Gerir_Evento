@@ -12,7 +12,7 @@ namespace EventoTecnologia
     public class Evento
     {
         public List<Evento> listaEventos  = new List<Evento>();
-        public List<Participante> listaParticipantes = new List<Participante>();
+        public BindingList<Participante> listaParticipantes = new BindingList<Participante>();
         public const int CAPACIDADE_MAX = 15;
         public string Nome { get; set; }
         public DateTime Data { get; set; }

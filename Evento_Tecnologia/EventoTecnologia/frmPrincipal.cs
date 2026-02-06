@@ -10,7 +10,6 @@ namespace EventoTecnologia
         public frmPrincipal()
         {
             InitializeComponent();
-            CarregarJ();
         }
         BindingList<Evento> eventos;
         BindingList<Participante> participantes;
@@ -18,9 +17,6 @@ namespace EventoTecnologia
         {
             eventos = Dados.LerEventos();
             participantes = Dados.LerParticipantes();
-
-            cb_nomevento.DataSource = Dados.evento[0];
-            dgvDados.DataSource = Dados.participante;
 
             //desativar a seleção multipla de linhas
             dgvDados.MultiSelect = false;
@@ -35,7 +31,7 @@ namespace EventoTecnologia
             //adaptar o tamanho das colunas ao conteudo e ao tamanho da dataGridView
             dgvDados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             //alterar o tamanho da coluna da idade para o tamanho do conteudo
-            dgvDados.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            //dgvDados.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
 
             //não permiter que o utilizador adicione ou remove colunas
             dgvDados.AllowUserToAddRows = false;
@@ -49,25 +45,20 @@ namespace EventoTecnologia
                 dgvDados.Columns[i].Visible = true;
             }
 
-            cb_nomevento.DataSource = eventos;
-            if (eventos.Count > 0)
-            {
-                cb_nomevento.Items.Add(evento.Nome);
-                dtp_data.Value = Dados.evento[0].Data;
-                nup_participantes.Value = Dados.evento[0].CapacidadeMax;
-            }
-            if(cb_nomevento.Items.Count > 0)
+            cb_nomevento.Text = eventos[0].Nome;
+            dtp_data.Value = eventos[0].Data;
+            nup_participantes.Value = eventos[0].CapacidadeMax;
+            if (cb_nomevento.Items.Count > 0)
             {
                 cb_nomevento.SelectedIndex = 0;
             }
+            if (eventos.Count > 0)
+            {
                 dtp_data.Value = eventos[0].Data;
                 nup_participantes.Value = eventos[0].CapacidadeMax;
             }
-
-            cb_nomevento.Enabled = true;
             dtp_data.Enabled = false;
             nup_participantes.Enabled = false;
-
         }
 
         private void bt_sair_Click(object sender, EventArgs e)
@@ -82,6 +73,12 @@ namespace EventoTecnologia
         {
             frmAdicionarParticipante adicionarParticipante = new frmAdicionarParticipante();
             adicionarParticipante.ShowDialog();
+            cb_nomevento.Text = eventos[0].Nome;
+            if (eventos.Count > 0)
+            {
+                dtp_data.Value = eventos[0].Data;
+                nup_participantes.Value = eventos[0].CapacidadeMax;
+            }
         }
         //Remover a linha selecionada no datagridview
         private void bt_remover_Click(object sender, EventArgs e)
@@ -157,36 +154,6 @@ namespace EventoTecnologia
 
             //atualizar os dados do participante de acordo com as edições feitas
             dgvDados.Refresh();
-        }
-
-        public void GuardarJ()
-        {
-            try
-            {
-                string json = JsonSerializer.Serialize(Dados.evento, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("evento.json", json);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro ao guardar os dados: " + ex.Message);
-            }
-        }
-        public void CarregarJ()
-        {
-            try
-            {
-                if (File.Exists("evento.json"))
-                {
-                    string json = File.ReadAllText("evento.json");
-                    var eventos = JsonSerializer.Deserialize<BindingList<Evento>>(json,
-                        new JsonSerializerOptions { }) ?? new BindingList<Evento>();
-                    Dados.evento = eventos; 
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro ao carregar os dados: " + ex.Message);
-            }
         }
     }
 }

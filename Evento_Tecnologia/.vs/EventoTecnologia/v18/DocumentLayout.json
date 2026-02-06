@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,38 +35,12 @@
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\Afonso\\Documents\\School\\PSI\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\pc\\documents\\school\\psi\\geir_evento\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,31 +48,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\Afonso\\Documents\\School\\PSI\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmadicionarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|c:\\users\\afonso\\documents\\school\\psi\\gerir_evento\\evento_tecnologia\\eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarparticipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\Afonso\\Documents\\School\\PSI\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\adicionar_evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|C:\\Users\\Afonso\\Documents\\School\\PSI\\Gerir_Evento\\Evento_Tecnologia\\eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6744800-436F-4002-A3C6-6240DBC7DB79}|EventoTecnologia\\EventoTecnologia.csproj|solutionrelative:eventotecnologia\\frmeditarevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -101,7 +62,6 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
           "SelectedChildIndex": 10,
           "Children": [
             {
@@ -114,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "frmEditarEvento.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmEditarEvento.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\frmEditarEvento.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmEditarEvento.cs",
               "RelativeToolTip": "EventoTecnologia\\frmEditarEvento.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwEAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwEAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T10:05:53.7Z",
               "EditorCaption": ""
@@ -138,15 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "frmEditarParticipante.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmEditarParticipante.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\frmEditarParticipante.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmEditarParticipante.cs",
               "RelativeToolTip": "EventoTecnologia\\frmEditarParticipante.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDsAAAAJAAAAAAAAAA==",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T16:10:48.883Z",
               "EditorCaption": ""
@@ -170,14 +128,14 @@
               "RelativeDocumentMoniker": "EventoTecnologia\\Adicionar_Evento.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Adicionar_Evento.cs",
               "RelativeToolTip": "EventoTecnologia\\Adicionar_Evento.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T09:46:19.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Adicionar_Evento.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Adicionar_Evento.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\Adicionar_Evento.cs",
@@ -188,22 +146,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "frmAdicionarParticipante.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmAdicionarParticipante.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\frmAdicionarParticipante.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmAdicionarParticipante.cs",
               "RelativeToolTip": "EventoTecnologia\\frmAdicionarParticipante.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAApwDMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAIAwwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T09:15:49.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "frmAdicionarParticipante.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmAdicionarParticipante.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\frmAdicionarParticipante.cs",
@@ -214,80 +170,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
               "DocumentIndex": 0,
               "Title": "frmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmPrincipal.cs",
               "RelativeToolTip": "EventoTecnologia\\frmPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T09:28:35.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "frmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\frmPrincipal.cs [Design]",
               "RelativeToolTip": "EventoTecnologia\\frmPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:43:01.506Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-11-21T08:43:01.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Participante.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Participante.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\Participante.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Participante.cs",
               "RelativeToolTip": "EventoTecnologia\\Participante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T09:06:51.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Evento.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Evento.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\Evento.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Evento.cs",
               "RelativeToolTip": "EventoTecnologia\\Evento.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T19:20:26.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\Afonso\\Documents\\School\\PSI\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Evento.cs",
-              "RelativeDocumentMoniker": "EventoTecnologia\\Evento.cs",
-              "ToolTip": "C:\\Users\\Afonso\\Documents\\School\\PSI\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Evento.cs",
-              "RelativeToolTip": "EventoTecnologia\\Evento.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T19:20:26.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Dados.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Dados.cs",
               "RelativeDocumentMoniker": "EventoTecnologia\\Dados.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\School\\PSI\\Geir_Evento\\Gerir_Evento\\Evento_Tecnologia\\EventoTecnologia\\Dados.cs",
               "RelativeToolTip": "EventoTecnologia\\Dados.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T16:21:55.082Z",
               "EditorCaption": ""

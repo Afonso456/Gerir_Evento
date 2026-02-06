@@ -19,16 +19,7 @@ namespace EventoTecnologia
         private static string ficheiroParticipantes = "participantes.json";
 
         static Dados()
-        {
-            /*participantes de exemplo
-            participante.Add(new Participante("Ana Silva", 22, "anasilva@gmail.com"));
-            participante.Add(new Participante("Marco Paulo", 35, "paulo@gmail.com"));
-            participante.Add(new Participante("Antonio Costa", 50, "costaantonio@gmail.com"));
-
-            //evento de exemplo
-            evento.Add(new Evento("Festa de Tecnologia", new DateTime(2024, 11, 15), 10));
-            evento.Add(new Evento("Evento", new DateTime(2027, 2, 23), 5));*/
-        }
+        { }
 
         public static BindingList<Evento> LerEventos()
         {
