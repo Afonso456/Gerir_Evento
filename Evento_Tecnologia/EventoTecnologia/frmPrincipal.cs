@@ -1,4 +1,6 @@
+using System.ComponentModel;
 using System.Diagnostics.Eventing.Reader;
+using System.Text.Json;
 
 namespace EventoTecnologia
 {
@@ -7,6 +9,7 @@ namespace EventoTecnologia
         public frmPrincipal()
         {
             InitializeComponent();
+            CarregarJ();
         }
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
@@ -36,11 +39,13 @@ namespace EventoTecnologia
             foreach (var evento in Dados.evento)
             {
                 cb_nomevento.Items.Add(evento.Nome);
+                dtp_data.Value = Dados.evento[0].Data;
+                nup_participantes.Value = Dados.evento[0].CapacidadeMax;
             }
-            cb_nomevento.Text = Dados.evento[0].Nome;
-            dtp_data.Value = Dados.evento[0].Data;
-            nup_participantes.Value = Dados.evento[0].CapacidadeMax;
-
+            if(cb_nomevento.Items.Count > 0)
+            {
+                cb_nomevento.SelectedIndex = 0;
+            }
             cb_nomevento.Enabled = true;
             dtp_data.Enabled = false;
             nup_participantes.Enabled = false;
@@ -125,6 +130,36 @@ namespace EventoTecnologia
 
             //atualizar os dados do participante de acordo com as edições feitas
             dgvDados.Refresh();
+        }
+
+        public void GuardarJ()
+        {
+            try
+            {
+                string json = JsonSerializer.Serialize(Dados.evento, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText("evento.json", json);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao guardar os dados: " + ex.Message);
+            }
+        }
+        public void CarregarJ()
+        {
+            try
+            {
+                if (File.Exists("evento.json"))
+                {
+                    string json = File.ReadAllText("evento.json");
+                    var eventos = JsonSerializer.Deserialize<BindingList<Evento>>(json,
+                        new JsonSerializerOptions { }) ?? new BindingList<Evento>();
+                    Dados.evento = eventos; 
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar os dados: " + ex.Message);
+            }
         }
     }
 }
