@@ -15,6 +15,9 @@ namespace EventoTecnologia
         public static BindingList<Participante> participante = new BindingList<Participante>();
         public static BindingList<Evento> evento = new BindingList<Evento>();
 
+        private static string ficheiroEventos = "eventos.json";
+        private static string ficheiroParticipantes = "participantes.json";
+
         static Dados()
         {
             /*participantes de exemplo
@@ -27,24 +30,42 @@ namespace EventoTecnologia
             evento.Add(new Evento("Evento", new DateTime(2027, 2, 23), 5));*/
         }
 
-        //função para guardar os dados em ficheiros JSON
-        public static void GuardarDados()
+        public static BindingList<Evento> LerEventos()
         {
-            string jsonStringe = JsonSerializer.Serialize(evento);
-            string jsonStringp = JsonSerializer.Serialize(participante);
+            if (!File.Exists(ficheiroEventos))
+                return new BindingList<Evento>();
 
-            string fileNamep = "participantes.json";
-            File.WriteAllText(fileNamep, jsonStringp);
+            string json = File.ReadAllText(ficheiroEventos);
+            var lista = JsonSerializer.Deserialize<List<Evento>>(json);
 
-            string fileName = "eventos.json";
-            File.WriteAllText(fileName, jsonStringe);
-
+            return new BindingList<Evento>(lista ?? new List<Evento>());
         }
 
-        //função para carregar os dados de um ficheiro JSON para a datagridview
-        public static void CarregarDados()
+        public static void GuardarEventos(BindingList<Evento> eventos)
         {
-            
+            var json = JsonSerializer.Serialize(evento.ToList(),
+                new JsonSerializerOptions { WriteIndented = true });
+
+            File.WriteAllText(ficheiroEventos, json);
+        }
+
+        public static BindingList<Participante> LerParticipantes()
+        {
+            if (!File.Exists(ficheiroParticipantes))
+                return new BindingList<Participante>();
+
+            string json = File.ReadAllText(ficheiroParticipantes);
+            var lista = JsonSerializer.Deserialize<List<Participante>>(json);
+
+            return new BindingList<Participante>(lista ?? new List<Participante>());
+        }
+
+        public static void GuardarParticipantes(BindingList<Participante> participantes)
+        {
+            var json = JsonSerializer.Serialize(participantes.ToList(),
+                new JsonSerializerOptions { WriteIndented = true });
+
+            File.WriteAllText(ficheiroParticipantes, json);
         }
     }
 }

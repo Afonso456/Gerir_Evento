@@ -25,23 +25,28 @@ namespace EventoTecnologia
             DateTime data = dtp_data.Value;
             int capacidade = (int)nun_participantes.Value;
 
+            if (string.IsNullOrEmpty(nome))
+            {
+                errorProvider1.SetError(tb_nome, "O nome do evento não pode estar vazio.");
+                return;
+            }
+
 
             Dados.evento.Add(new Evento(nome, data, capacidade));
 
-            // Limpar os campos depois de adicionar
-            tb_nome.Clear();
-            dtp_data.Value = DateTime.Now;
-            nun_participantes.Value = 0;
-            
-
             MessageBox.Show("Evento Adicionado");
-            Adicionar_Evento.ActiveForm.Close();
+            Close();
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ação Cancelada");
-            Adicionar_Evento.ActiveForm.Close();
+            Close();
+        }
+
+        private void Adicionar_Evento_Load(object sender, EventArgs e)
+        {
+            dtp_data.MinDate = DateTime.Now;
         }
     }
 }

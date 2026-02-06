@@ -44,6 +44,9 @@ namespace EventoTecnologia
 
         }
 
+        public Participante()
+        {}
+
         public static bool IsValidEmail(string email)
         {
             bool valido = true;

@@ -136,6 +136,7 @@
             Controls.Add(tb_nome);
             Name = "Adicionar_Evento";
             Text = "Adicionar Evento";
+            Load += Adicionar_Evento_Load;
             ((System.ComponentModel.ISupportInitialize)nun_participantes).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProvider2).EndInit();
