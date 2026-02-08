@@ -5,7 +5,7 @@ namespace EventoTecnologia
     public class Participante
     {
         public string Nome { get; set; }
-
+        public int EventoId { get; set; }
         int idade;
         public int Idade
         {
@@ -32,14 +32,15 @@ namespace EventoTecnologia
             }
         }
 
-        public Participante(string _nome, int _idade, string _email)
+        public Participante(string _nome, int _idade, string _email, int id)
         {
             Nome = _nome;
             Idade = _idade;
             Email = _email;
+            EventoId = id;
         }
 
-        public Participante(string _nome, string _email) : this(_nome, 16, _email)
+        public Participante(string _nome, string _email, int id) : this(_nome, 16, _email, id)
         {
 
         }

@@ -12,18 +12,20 @@ namespace EventoTecnologia
 {
     public partial class frmEditarParticipante : Form
     {
-        public frmEditarParticipante()
+        Participante participante;
+        public frmEditarParticipante(Participante p)
         {
             InitializeComponent();
+            this.participante = p;
         }
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
+            string nome = tb_nome.Text;
             string email = tb_email.Text;
             int idade = Convert.ToInt32(nun_idade.Value);
-            //TODO: Trocar os if's pelo errorprovider
             // Validar campos
-            if (string.IsNullOrWhiteSpace("txt"))
+            if (string.IsNullOrWhiteSpace(nome))
             {
                 errorProvider1.SetError(tb_nome, "Nome do participante é obrigatorio");
                 return;
@@ -40,11 +42,10 @@ namespace EventoTecnologia
                 errorProvider1.SetError(tb_email, "Email inválido");
                 return;
             }
-
-            // Editar o participante na BindingList
-            Dados.participante[0].Nome = tb_nome.Text;
-            Dados.participante[0].Idade = idade;
-            Dados.participante[0].Email = email;
+            //Atualizar o participante na BindingList
+            participante.Nome = tb_nome.Text;
+            participante.Idade = idade;
+            participante.Email = email;
 
             // Limpas os campos depois de adicionar
             tb_nome.Clear();
@@ -63,9 +64,13 @@ namespace EventoTecnologia
 
         private void frmEditarParticipante_Load(object sender, EventArgs e)
         {
-            tb_nome.Text = Dados.participante[0].Nome;
-            tb_email.Text = Dados.participante[0].Email;
-            nun_idade.Value = Dados.participante[0].Idade;
+            //carregar os dados do participante nos campos
+            if (participante != null)
+            {
+                tb_nome.Text = participante.Nome;
+                nun_idade.Value = participante.Idade;
+                tb_email.Text = participante.Email;
+            }
         }
     }
 }

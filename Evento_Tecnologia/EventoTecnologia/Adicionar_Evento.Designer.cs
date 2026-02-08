@@ -125,7 +125,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(450, 149);
+            ClientSize = new Size(465, 149);
             Controls.Add(dtp_data);
             Controls.Add(btn_cancelar);
             Controls.Add(nun_participantes);

@@ -13,14 +13,15 @@ namespace EventoTecnologia
 {
     public partial class Adicionar_Evento : Form
     {
-        public Adicionar_Evento()
+        BindingList<Evento> eventos;
+        public Adicionar_Evento(BindingList<Evento> eventos)
         {
             InitializeComponent();
+            this.eventos = eventos;
         }
 
         private void bt_confirmar_Click(object sender, EventArgs e)
         {
-            //TODO: adicionar validações necessárias usando o errorprovider
             string nome = tb_nome.Text.Trim();
             DateTime data = dtp_data.Value;
             int capacidade = (int)nun_participantes.Value;
@@ -31,10 +32,24 @@ namespace EventoTecnologia
                 return;
             }
 
-
-            Dados.evento.Add(new Evento(nome, data, capacidade));
-
-            MessageBox.Show("Evento Adicionado");
+            if(nun_participantes.Value <= 0)
+            {
+                errorProvider1.SetError(nun_participantes, "A capacidade deve ser maior que 0.");
+                return;
+            }
+            //verificar se o nome do evento ja existe
+            if (eventos.Any(ev => ev.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase)))
+            {
+                errorProvider1.SetError(tb_nome, "Já existe um evento com esse nome.");
+                return;
+            }
+            //adicionar o evento á BindingList
+            Evento ev = new Evento(
+            tb_nome.Text,
+            dtp_data.Value,
+            (int)nun_participantes.Value);
+            eventos.Add(ev);
+            MessageBox.Show("Evento adicionado");
             Close();
         }
 

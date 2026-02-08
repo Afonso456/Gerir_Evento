@@ -33,7 +33,7 @@
             label4 = new Label();
             dtp_data = new DateTimePicker();
             bt_remover = new Button();
-            bt_adicionar = new Button();
+            bt_adicionarp = new Button();
             bt_sair = new Button();
             groupBox1 = new GroupBox();
             btn_editar = new Button();
@@ -91,17 +91,17 @@
             bt_remover.TabIndex = 4;
             bt_remover.Text = "&Remover Inscrição";
             bt_remover.UseVisualStyleBackColor = true;
-            bt_remover.Click += bt_remover_Click;
+            bt_remover.Click += bt_removerp_Click;
             // 
-            // bt_adicionar
+            // bt_adicionarp
             // 
-            bt_adicionar.Location = new Point(530, 144);
-            bt_adicionar.Name = "bt_adicionar";
-            bt_adicionar.Size = new Size(78, 38);
-            bt_adicionar.TabIndex = 4;
-            bt_adicionar.Text = "&Inscrever Participante";
-            bt_adicionar.UseVisualStyleBackColor = true;
-            bt_adicionar.Click += bt_adicionar_Click;
+            bt_adicionarp.Location = new Point(530, 144);
+            bt_adicionarp.Name = "bt_adicionarp";
+            bt_adicionarp.Size = new Size(78, 38);
+            bt_adicionarp.TabIndex = 4;
+            bt_adicionarp.Text = "&Inscrever Participante";
+            bt_adicionarp.UseVisualStyleBackColor = true;
+            bt_adicionarp.Click += bt_adicionarp_Click;
             // 
             // bt_sair
             // 
@@ -118,7 +118,7 @@
             groupBox1.Controls.Add(btn_editar);
             groupBox1.Controls.Add(dgvDados);
             groupBox1.Controls.Add(bt_remover);
-            groupBox1.Controls.Add(bt_adicionar);
+            groupBox1.Controls.Add(bt_adicionarp);
             groupBox1.Location = new Point(34, 107);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(625, 240);
@@ -134,7 +134,7 @@
             btn_editar.TabIndex = 6;
             btn_editar.Text = "&Editar Participante";
             btn_editar.UseVisualStyleBackColor = true;
-            btn_editar.Click += btn_editar_Click;
+            btn_editar.Click += btn_editarp_Click;
             // 
             // dgvDados
             // 
@@ -159,6 +159,7 @@
             cb_nomevento.Name = "cb_nomevento";
             cb_nomevento.Size = new Size(442, 23);
             cb_nomevento.TabIndex = 7;
+            cb_nomevento.SelectedIndexChanged += cb_nomevento_SelectedIndexChanged;
             // 
             // btn_adicionarevento
             // 
@@ -206,8 +207,10 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            MaximizeBox = false;
             Name = "frmPrincipal";
             Text = "Gestão de Inscrições para Eventos de Tecnologia";
+            FormClosing += frmPrincipal_FormClosing;
             Load += frmPrincipal_Load;
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvDados).EndInit();
@@ -223,7 +226,7 @@
         private Label label4;
         private DateTimePicker dtp_data;
         private Button bt_remover;
-        private Button bt_adicionar;
+        private Button bt_adicionarp;
         private Button bt_sair;
         private GroupBox groupBox1;
         private NumericUpDown nup_participantes;

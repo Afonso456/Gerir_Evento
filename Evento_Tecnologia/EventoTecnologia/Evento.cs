@@ -14,6 +14,7 @@ namespace EventoTecnologia
         public List<Evento> listaEventos  = new List<Evento>();
         public BindingList<Participante> listaParticipantes = new BindingList<Participante>();
         public const int CAPACIDADE_MAX = 15;
+        public int Id { get; set; }
         public string Nome { get; set; }
         public DateTime Data { get; set; }
 
@@ -55,7 +56,7 @@ namespace EventoTecnologia
             bool podeinscrever = true;
 
             //verificar se o evento já atingiu a capacidade máxima
-            if (Dados.evento.Count >= CAPACIDADE_MAX)
+            if (Dados.Evento.Count >= CAPACIDADE_MAX)
             {
                 podeinscrever = false;
             }
